@@ -561,7 +561,6 @@ const App: React.FC = () => {
 
 const SectionTitle: React.FC<{ title: string; subtitle?: string }> = ({
   title,
-  subtitle,
 }) => (
   <div className="space-y-1">
     <h2 className="text-2xl sm:text-3xl font-semibold text-slate-50">
